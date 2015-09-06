@@ -7,6 +7,10 @@ The template is created by [Adrien Friggeri][afriggeri] and it is available on
 
 You can find the compiled pdf version from my web site: [kimia.fi][kimia.fi]
 
+## Building on OS X ##
+
+It seems that by default xelatex on os x can't find fonts. Open Font Book application, create new library and add fonts from directory ´/usr/local/texlive/2015/texmf-dist/fonts/´. After that everything should work.
+
 # About original template #
 
 Latest version of my CV, typesetted in Helvetica and using colors inspired by
