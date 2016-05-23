@@ -5,11 +5,14 @@ promise that it always represents the current state of my professional life.
 The template is created by [Adrien Friggeri][afriggeri] and it is available on
 [GitHub][afriggerighcv].
 
-You can find the compiled pdf version from my web site: [kimia.fi][kimia.fi]
+You can find the [compiled pdf version][cvpdf] from my web site [kimia.fi][kimia.fi].
 
 ## Building on OS X ##
 
-It seems that by default xelatex on os x can't find fonts. Open Font Book application, create new library and add fonts from directory ´/usr/local/texlive/2015/texmf-dist/fonts/´. After that everything should work.
+It seems that by default xelatex on os x can't find fonts. Open Font Book
+application, create new library and add fonts from directory
+`/usr/local/texlive/2015/texmf-dist/fonts/`. After that everything should work
+by running `latexmk -xelatex -f cv`
 
 # About original template #
 
@@ -45,3 +48,4 @@ SOFTWARE.
 [afriggeri]: http://www.friggeri.net/ "Adrien Friggeri"
 [afriggerighcv]: https://github.com/afriggeri/CV "afriggeri/cv"
 [kimia.fi]: http://kimia.fi "Personal home of Kimmo Ahokas"
+[cvpdf]: http://kimia.fi/papers/cv.pdf "CV of Kimmo Ahokas"
