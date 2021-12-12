@@ -2,26 +2,17 @@
 
 This is ongoing version of my CV. I try to keep it up-to-date, but can not
 promise that it always represents the current state of my professional life.
-The template is created by [Adrien Friggeri][afriggeri] and it is available on
+The original template is created by [Adrien Friggeri][afriggeri] and it is available on
 [GitHub][afriggerighcv].
+The current version is based on [A4 version](https://github.com/depressiveRobot/friggeri-cv-a4) by [Marvin Frommhold](https://github.com/depressiveRobot).
+
+The template is licenced with MIT license.
 
 You can find the [compiled pdf version][cvpdf] from my web site [kimia.fi][kimia.fi].
 
 ## Building on OS X ##
 
-It seems that by default xelatex on os x can't find fonts. Open Font Book
-application, create new library and add fonts from directory
-`/usr/local/texlive/2015/texmf-dist/fonts/`. After that everything should work
-by running `latexmk -xelatex -f cv`
-
-# About original template #
-
-Latest version of my CV, typesetted in Helvetica and using colors inspired by
-Monokai (there is an `print` option which renders in black and white, and
-reverts the header to dark on light, if printing on paper is needed).
-
-Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to
-print my publications and textpos for the aside.
+Run `make pdf`.
 
 # License #
 
